@@ -1,0 +1,12 @@
+# rvm
+[[ -s "/Users/avbranco/.rvm/scripts/rvm" ]] && source "/Users/avbranco/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+# git
+source ~/Work/dotfiles/bash/others/git-auto-complete
+parse_git_branch() {
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\→\ \1/'
+}
+
+# prompt
+PS1='\[\e]0;\u@\h:\w\a\e[33m\]\w\[\e[31m\] $(parse_git_branch) $ \[\e[0;39m\]'
+PS1="\$(~/.rvm/bin/rvm-prompt i v g) $PS1"
