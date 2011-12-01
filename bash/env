@@ -2,5 +2,5 @@ export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=$PATH:~/bin
-export EDITOR="mvim"
+#export EDITOR="mvim"
 
