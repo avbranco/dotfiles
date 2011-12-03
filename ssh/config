@@ -1,2 +1,8 @@
-Host sample
-HostName sample.com
+Host fragola
+HostName fragola.sfarm1.com
+
+Host nutella
+HostName nutella.sfarm1.com
+
+Host vaniglia
+HostName vaniglia.sfarm1.com
