@@ -1,0 +1,13 @@
+[user]
+	name =
+	email =
+[github]
+	user =
+	token =
+[core]
+	excludesfile = ~/.gitignore_global
+[color]
+	ui = true
+	diff = true
+	status = true
+	branch = true
