@@ -15,3 +15,4 @@ alias rcs='RAILS_ENV=staging script/console --irb=pry'
 
 #GENERAL
 alias fn='find . -name $1'
+alias fxp='/Applications/Firefox.app/Contents/MacOS/firefox-bin -profilemanager'
