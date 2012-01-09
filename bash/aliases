@@ -9,6 +9,8 @@ alias go='git checkout '
 alias gob='git checkout -b '
 alias gk='gitk --all&'
 alias gx='gitx --all'
+alias gl='git log --pretty=format:"%C(yellow)%h%Cred%d%Creset - %C(cyan)%an %Creset: %s %Cgreen(%cr)"'
+alias glg='git log --pretty=oneline --decorate --graph'
 
 #RAILS 2
 alias rcp='RAILS_ENV=production script/console --irb=pry'
