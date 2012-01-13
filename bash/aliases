@@ -22,6 +22,7 @@ alias rsp='RAILS_ENV=production script/server '
 alias rsd='RAILS_ENV=development script/server '
 alias rss='RAILS_ENV=staging script/server '
 
+alias rt='ruby -Ilib:test -rubygems'
 
 #GENERAL
 alias fn='find . -name $1'
