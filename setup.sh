@@ -18,3 +18,6 @@ ln -nfs ~/work/dotfiles/ssh/config ~/.ssh/config
 
 ln -nfs ~/work/dotfiles/bash_profile ~/.bash_profile
 ln -nfs ~/work/dotfiles/bashrc ~/.bashrc
+
+ln -nfs ~/work/dotfiles/tmux.conf ~/.tmux.conf
+

@@ -26,3 +26,6 @@ alias rt='ruby -Ilib:test -rubygems'
 #GENERAL
 alias fn='find . -name $1'
 alias fxp='/Applications/Firefox.app/Contents/MacOS/firefox-bin -profilemanager'
+
+#TMUX
+alias tmux="TERM=screen-256color-bce tmux"
