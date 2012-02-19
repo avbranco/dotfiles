@@ -21,3 +21,4 @@ ln -nfs ~/work/dotfiles/bashrc ~/.bashrc
 
 ln -nfs ~/work/dotfiles/tmux.conf ~/.tmux.conf
 
+ln -nfs ~/work/dotfiles/zshrc ~/.zshrc
