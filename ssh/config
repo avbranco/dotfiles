@@ -6,3 +6,6 @@ HostName nutella.sfarm1.com
 
 Host vaniglia
 HostName vaniglia.sfarm1.com
+
+Host mel
+HostName melancia.sfarm1.com
