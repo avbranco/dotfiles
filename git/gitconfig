@@ -1,9 +1,6 @@
 [user]
-	name =
-	email =
-[github]
-	user =
-	token =
+	name = Andre Branco
+	email = avbranco@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
 [color]
