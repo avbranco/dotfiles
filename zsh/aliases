@@ -28,7 +28,8 @@ alias rt='ruby -Ilib:test -rubygems'
 alias rps='RP2SERVER=1 RAILS_ENV=development ruby --debug script/runner "RP2Server.start(1)"'
 alias gorps='cd ~/work/trade2win/replaypoker/vendor/plugins/rp2server/'
 alias gorp='cd ~/work/trade2win/replaypoker/'
-alias ssh-rp='~/work/dotfiles/scripts/rp-servers.sh'
+alias rp-ssh='~/work/dotfiles/scripts/rp-servers.sh'
+alias rp='~/work/dotfiles/scripts/rp-code.sh'
 
 #GENERAL
 alias fn='find . -name $1'
