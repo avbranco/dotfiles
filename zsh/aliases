@@ -11,21 +11,13 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 alias gl='git log --graph --abbrev-commit --date=relative'
 
-#RAILS 2
-alias rcp='RAILS_ENV=production script/console --irb=pry'
-alias rcd='RAILS_ENV=development script/console --irb=pry'
-alias rcs='RAILS_ENV=staging script/console --irb=pry'
-alias rct='RAILS_ENV=test script/console --irb=pry'
-
-alias rsp='RAILS_ENV=production script/server '
-alias rsd='RAILS_ENV=development script/server '
-alias rss='RAILS_ENV=staging script/server '
-
-alias rt='ruby -Ilib:test -rubygems'
-
+#RAILS3
+alias rc="pry -r ./config/environment -r rails/console/app -r rails/console/helpers"
+alias rt='bundle exec ruby -Ilib:test'
+alias r='rails'
 
 #RP
-alias rps='RP2SERVER=1 RAILS_ENV=development ruby --debug script/runner "RP2Server.start(1)"'
+alias rps='RP2SERVER=1 RAILS_ENV=development RUBYOPT=-d rails runner "RP2Server.start(1)"'
 alias gorps='cd ~/work/trade2win/replaypoker/vendor/plugins/rp2server/'
 alias gorp='cd ~/work/trade2win/replaypoker/'
 alias rp-ssh='~/work/dotfiles/scripts/rp-servers.sh'
