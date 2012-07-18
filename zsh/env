@@ -2,3 +2,8 @@ export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=$PATH:~/bin
+
+ERLANG_HOME=/usr/share/erlang
+export PATH=$PATH:$ERLANG_HOME/bin
+
+export LC_CTYPE="utf-8"
