@@ -38,7 +38,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 #export PATH=/Users/avbranco/.rvm/gems/ruby-1.9.2-p290/bin:/Users/avbranco/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/avbranco/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/avbranco/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/avbranco/bin
 . ~/github_token
-. ~/Work/dotfiles/zsh/env
-. ~/Work/dotfiles/zsh/config
-. ~/Work/dotfiles/zsh/aliases
-
+. ~/work/dotfiles/zsh/env
+. ~/work/dotfiles/zsh/config
+. ~/work/dotfiles/zsh/aliases
+. ~/work/trade2win/replaypoker/ec2/env

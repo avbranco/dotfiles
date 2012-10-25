@@ -10,6 +10,21 @@ HostName vaniglia.sfarm1.com
 Host mel
 HostName melancia.sfarm1.com
 
+Host amarena
+HostName amarena.sfarm1.com
+
+Host s1
+HostName staging1.replaypoker.com
+User deploy
+
+Host s2
+HostName staging2.replaypoker.com
+User deploy
+
+Host s3
+HostName staging3.replaypoker.com
+User deploy
+
 Host heroku.personal
   HostName heroku.com
   IdentityFile /Users/avbranco/.ssh/id_rsa

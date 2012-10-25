@@ -12,20 +12,18 @@ alias gx='gitx --all'
 alias gl='git log --graph --abbrev-commit --date=relative'
 
 #RAILS3
-alias rc="pry -r ./config/environment -r rails/console/app -r rails/console/helpers"
+alias rc="pry"
 alias rt='bundle exec ruby -Ilib:test'
 alias r='rails'
 
 #RP
-alias rps='RP2SERVER=1 RAILS_ENV=development RUBYOPT=-d rails runner "RP2Server.start(1)"'
+alias rps='RP2SERVER=1 RAILS_ENV=development RPDEBUG=true rails runner "RP2Server.start(1)"'
 alias gorps='cd ~/work/trade2win/replaypoker/vendor/plugins/rp2server/'
 alias gorp='cd ~/work/trade2win/replaypoker/'
 alias rp-ssh='~/work/dotfiles/scripts/rp-servers.sh'
 alias rp='~/work/dotfiles/scripts/rp-code.sh'
-
-#GENERAL
-alias fn='find . -name $1'
-alias fxp='/Applications/Firefox.app/Contents/MacOS/firefox-bin -profilemanager'
+alias ec2s1='ec2-describe-instances | grep `script/ec2/name staging1`'
+alias ec2s2='ec2-describe-instances | grep `script/ec2/name staging2`'
 
 #TMUX
 alias tmux="TERM=screen-256color-bce tmux"

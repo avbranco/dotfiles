@@ -7,3 +7,4 @@ ERLANG_HOME=/usr/share/erlang
 export PATH=$PATH:$ERLANG_HOME/bin
 
 export LC_CTYPE="utf-8"
+export JAVA_HOME=/Library/Java/Home
