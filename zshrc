@@ -42,3 +42,5 @@ source $ZSH/oh-my-zsh.sh
 . ~/work/dotfiles/zsh/config
 . ~/work/dotfiles/zsh/aliases
 . ~/work/trade2win/replaypoker/ec2/env
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

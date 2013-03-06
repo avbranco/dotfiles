@@ -16,6 +16,10 @@ alias rc="pry"
 alias rt='bundle exec ruby -Ilib:test'
 alias r='rails'
 
+#REDIS
+alias redis-start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
+alias redis-stop='launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
+
 #RP
 alias rps='RP2SERVER=1 RAILS_ENV=development RPDEBUG=true rails runner "RP2Server.start(1)"'
 alias gorps='cd ~/work/trade2win/replaypoker/vendor/plugins/rp2server/'
