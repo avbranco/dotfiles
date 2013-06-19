@@ -13,8 +13,11 @@ alias gl='git log --graph --abbrev-commit --date=relative'
 
 #RAILS3
 alias rc="pry"
+alias zc="zeus console"
 alias rt='bundle exec ruby -Ilib:test'
+alias zt='zeus test'
 alias r='rails'
+alias z='zeus'
 
 #REDIS
 alias redis-start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
