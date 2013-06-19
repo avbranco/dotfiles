@@ -20,3 +20,5 @@
         keepTemporaries = false
         trustExitCode = false
         keepBackup = false
+[github]
+	user = avbranco
