@@ -1,11 +1,8 @@
-Host fragola
-HostName fragola.sfarm1.com
-
 Host nutella
 HostName nutella.sfarm1.com
 
-Host vaniglia
-HostName vaniglia.sfarm1.com
+Host mango
+HostName mango.sfarm1.com
 
 Host mel
 HostName melancia.sfarm1.com
@@ -13,8 +10,14 @@ HostName melancia.sfarm1.com
 Host cacau
 HostName cacau.sfarm1.com
 
-Host amarena
-HostName amarena.sfarm1.com
+Host mango
+HostName mango.sfarm1.com
+
+Host limone
+HostName limone.sfarm1.com
+
+Host panna
+HostName panna.sfarm1.com
 
 Host s1
 HostName staging1.replaypoker.com
