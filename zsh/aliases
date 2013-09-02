@@ -27,8 +27,9 @@ alias redis-stop='launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.pl
 
 #RP
 alias rps='RP2SERVER=1 RAILS_ENV=development RPDEBUG=true rails runner "RP2Server.start(1)"'
-alias gorps='cd ~/work/trade2win/replaypoker/vendor/plugins/rp2server/'
-alias gorp='cd ~/work/trade2win/replaypoker/'
+alias rps2='RP2SERVER=1 RAILS_ENV=development RPDEBUG=true rails runner "RP2Server.start(2)"'
+alias gorps='cd ~/work/replaygaming/replaypoker/vendor/plugins/rp2server/'
+alias gorp='cd ~/work/replaygaming/replaypoker/'
 alias rp-ssh='~/work/dotfiles/scripts/rp-servers.sh'
 alias rp='~/work/dotfiles/scripts/rp-code.sh'
 alias ec2s1='ec2-describe-instances | grep `script/ec2/name staging1`'
