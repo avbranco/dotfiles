@@ -1,3 +1,4 @@
 --type-add=ruby=.haml,.rake,.rsel
 --type-add=html=.haml,.mustache
 --type-add=css=.sass,.scss
+--type-add=css=.ex,.exs
