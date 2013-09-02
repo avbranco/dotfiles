@@ -1,4 +1,6 @@
 # GIT
+alias gp='git pull'
+alias gf='git fetch'
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
