@@ -22,3 +22,5 @@
         keepBackup = false
 [github]
 	user = avbranco
+[heroku]
+	account = personal
