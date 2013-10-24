@@ -44,3 +44,4 @@ source $ZSH/oh-my-zsh.sh
 . ~/work/replaygaming/replaypoker/ec2/env
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:/usr/local/sbin
