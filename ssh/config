@@ -1,6 +1,3 @@
-Host nutella
-HostName nutella.sfarm1.com
-
 Host mango
 HostName mango.sfarm1.com
 
@@ -10,25 +7,25 @@ HostName melancia.sfarm1.com
 Host cacau
 HostName cacau.sfarm1.com
 
-Host mango
-HostName mango.sfarm1.com
+Host goiaba
+HostName goiaba.sfarm1.com
 
 Host limone
 HostName limone.sfarm1.com
 
-Host panna
-HostName panna.sfarm1.com
+Host uva
+HostName uva.sfarm1.com
 
 Host s1
-HostName staging1.replaypoker.com
+HostName s1.replaygaming.com
 User deploy
 
 Host s2
-HostName staging2.replaypoker.com
+HostName s2.replaygaming.com
 User deploy
 
 Host s3
-HostName staging3.replaypoker.com
+HostName s3.replaygaming.com
 User deploy
 
 Host heroku.personal
