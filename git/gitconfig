@@ -24,3 +24,5 @@
 	user = avbranco
 [heroku]
 	account = personal
+[push]
+	default = current
