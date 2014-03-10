@@ -37,11 +37,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 #export PATH=/Users/avbranco/.rvm/gems/ruby-1.9.2-p290/bin:/Users/avbranco/.rvm/gems/ruby-1.9.2-p290@global/bin:/Users/avbranco/.rvm/rubies/ruby-1.9.2-p290/bin:/Users/avbranco/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Users/avbranco/bin
-. ~/github_token
+#. ~/github_token
 . ~/work/dotfiles/zsh/env
 . ~/work/dotfiles/zsh/config
 . ~/work/dotfiles/zsh/aliases
-. ~/work/replaygaming/replaypoker/ec2/env
+#. ~/work/replaygaming/replaypoker/ec2/env
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:/usr/local/sbin

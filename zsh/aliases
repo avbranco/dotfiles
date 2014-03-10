@@ -19,21 +19,26 @@ alias zc="zeus console"
 alias rt='bundle exec ruby -Ilib:test'
 alias zt='zeus test'
 alias r='rails'
+alias rs='TRUSTED_IP=10.211.55.2 rails s'
 alias z='zeus'
 
 #REDIS
-alias redis-start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
-alias redis-stop='launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
+#alias redis-start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
+#alias redis-stop='launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
 
 #RP
-alias rps='RP2SERVER=1 RAILS_ENV=development RPDEBUG=true rails runner "RP2Server.start(1)"'
-alias rps2='RP2SERVER=1 RAILS_ENV=development RPDEBUG=true rails runner "RP2Server.start(2)"'
-alias gorps='cd ~/work/replaygaming/replaypoker/vendor/plugins/rp2server/'
-alias gorp='cd ~/work/replaygaming/replaypoker/'
-alias rp-ssh='~/work/dotfiles/scripts/rp-servers.sh'
-alias rp='~/work/dotfiles/scripts/rp-code.sh'
-alias ec2s1='ec2-describe-instances | grep `script/ec2/name staging1`'
-alias ec2s2='ec2-describe-instances | grep `script/ec2/name staging2`'
+#alias rps='RP2SERVER=1 RAILS_ENV=development RPDEBUG=true rails runner "RP2Server.start(1)"'
+#alias rps2='RP2SERVER=1 RAILS_ENV=development RPDEBUG=true rails runner "RP2Server.start(2)"'
+#alias gorps='cd ~/work/replaygaming/replaypoker/vendor/plugins/rp2server/'
+#alias gorp='cd ~/work/replaygaming/replaypoker/'
+#alias rp-ssh='~/work/dotfiles/scripts/rp-servers.sh'
+#alias rp='~/work/dotfiles/scripts/rp-code.sh'
+#alias ec2s1='ec2-describe-instances | grep `script/ec2/name staging1`'
+#alias ec2s2='ec2-describe-instances | grep `script/ec2/name staging2`'
+
+
+alias gopia='cd ~/work/pia'
+alias pia='cd ~/work/pia && ~/work/dotfiles/scripts/pia-code.sh'
 
 #TMUX
 alias tmux="TERM=screen-256color-bce tmux"

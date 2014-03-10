@@ -1,1 +1,1 @@
-source ~/Work/dotfiles/vimfiles/vimrc
+source ~/work/dotfiles/vimfiles/vimrc

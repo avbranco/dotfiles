@@ -1,6 +1,7 @@
 # rvm
 [[ -s "/Users/avbranco/.rvm/scripts/rvm" ]] && source "/Users/avbranco/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+export $(gnome-keyring-daemon --daemonize --start)
 
 # prompt
 #PS1="\$(~/.rvm/bin/rvm-prompt i v g) $PS1"
