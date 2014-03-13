@@ -2,3 +2,5 @@
 --type-add=html=.haml,.mustache
 --type-add=css=.sass,.scss
 --type-add=css=.ex,.exs
+
+--ignore-dir=coverage
