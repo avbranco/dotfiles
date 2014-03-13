@@ -18,7 +18,9 @@ tmux rename-window -t pia-code:1 'vim'
 tmux select-window -t pia-code:1
 
 #monitor
+tmux new-window -t pia-monitor:2 -n 'zeus'
+tmux send-keys -t pia-monitor:2 "zeus start" C-m
 tmux send-keys -t pia-monitor:1 "ssh mcd5 'pia_alert_watcher.rb'" C-m
 
-tmux -2 attach-session -t pia-monitor
+tmux -2 attach-session -t pia-code
 
