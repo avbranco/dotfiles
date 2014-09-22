@@ -39,6 +39,7 @@ alias z='zeus'
 
 alias gopia='cd ~/work/pia'
 alias pia='cd ~/work/pia && ~/work/dotfiles/scripts/pia-code.sh'
+alias myip='~/work/dotfiles/scripts/myip.sh'
 
 #TMUX
 alias tmux="TERM=screen-256color-bce tmux"
