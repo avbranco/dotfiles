@@ -3,7 +3,7 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=$PATH:~/bin
 export LC_ALL=C
-export LC_CTYPE="utf-8"
+export LC_ALL="en_US.UTF-8"
 
 ERLANG_HOME=/usr/share/erlang
 export PATH=$PATH:$ERLANG_HOME/bin
