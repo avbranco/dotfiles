@@ -51,3 +51,4 @@ tags
 coverage/
 custom_plan.rb
 zeus.json
+public/installer/g/installer_osx.dmg.extracted
