@@ -1,7 +1,7 @@
 rspec() {
   if [ -S .zeus.sock ]; then
-    zeus rspec --debug "$@"
+    zeus rspec "$@"
   else
-    command rspec --debug "$@"
+    command rspec "$@"
   fi
 }
