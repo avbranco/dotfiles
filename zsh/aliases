@@ -21,6 +21,8 @@ alias zt='zeus test'
 alias r='rails'
 alias rs='TRUSTED_IP=10.211.55.2 rails s'
 alias z='zeus'
+alias rs_ssl='thin start -a 10.211.55.3 -p 3001 --ssl --ssl-key-file ~/.ssl/server.key --ssl-cert-file ~/.ssl/server.crt'
+alias my_work='gl --author=Andre --no-merges --since="6am" --date={relative,local,default,iso,rfc}'
 
 #REDIS
 #alias redis-start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
