@@ -22,3 +22,6 @@ ln -nfs ~/work/dotfiles/bashrc ~/.bashrc
 ln -nfs ~/work/dotfiles/tmux.conf ~/.tmux.conf
 
 ln -nfs ~/work/dotfiles/zshrc ~/.zshrc
+ln -nfs ~/work/dotfiles/zshenv ~/.zshenv
+
+ln -nfs ~/work/dotfiles/ackrc  ~/.ackrc

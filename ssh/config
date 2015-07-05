@@ -1,39 +1,6 @@
-Host mango
-HostName mango.sfarm1.com
+Host temujin
 
-Host mel
-HostName melancia.sfarm1.com
+Host dev.pia.com
+  ForwardX11 yes
+  ForwardX11Trusted yes
 
-Host cacau
-HostName cacau.sfarm1.com
-
-Host goiaba
-HostName goiaba.sfarm1.com
-
-Host limone
-HostName limone.sfarm1.com
-
-Host uva
-HostName uva.sfarm1.com
-
-Host s1
-HostName s1.replaygaming.com
-User deploy
-
-Host s2
-HostName s2.replaygaming.com
-User deploy
-
-Host s3
-HostName s3.replaygaming.com
-User deploy
-
-Host heroku.personal
-  HostName heroku.com
-  IdentityFile /Users/avbranco/.ssh/id_rsa
-  IdentitiesOnly yes
-
-Host heroku.work
-  HostName heroku.com
-  IdentityFile "/Users/avbranco/.ssh/identity.heroku.work"
-  IdentitiesOnly yes
